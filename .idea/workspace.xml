@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5d1584-1b68-4296-a272-35a06243bb1f" name="Default Changelist" comment="" />
+    <list default="true" id="7f5d1584-1b68-4296-a272-35a06243bb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/static/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/static/js/jquery-3.4.1.min.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite/static" />
       <recent name="$PROJECT_DIR$/mysite/covid" />
       <recent name="$PROJECT_DIR$/mysite" />
     </key>
@@ -100,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585415306765</updated>
-      <workItem from="1585415318629" duration="8557000" />
+      <workItem from="1585415318629" duration="8825000" />
     </task>
     <servers />
   </component>
