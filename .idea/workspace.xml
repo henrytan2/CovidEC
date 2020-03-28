@@ -1,99 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5d1584-1b68-4296-a272-35a06243bb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/bootstrap/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.dataTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.dataTables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.foundation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.jqueryui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.jqueryui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.semanticui.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.semanticui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/buttons.semanticui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/buttons.semanticui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/css/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/css/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.colVis.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.colVis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.colVis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.colVis.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.flash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.flash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.flash.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.html5.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.html5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.html5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.html5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.jqueryui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.jqueryui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.jqueryui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.print.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.print.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.print.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.print.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.semanticui.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.semanticui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/buttons.semanticui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/buttons.semanticui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/dataTables.buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/dataTables.buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/js/dataTables.buttons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/js/dataTables.buttons.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatable-buttons-1.6.1/swf/flashExport.swf" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatable-buttons-1.6.1/swf/flashExport.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.foundation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.semanticui.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.semanticui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/dataTables.semanticui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/datatables.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/datatables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/datatables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/jquery.dataTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/css/jquery.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/css/jquery.dataTables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/images/sort_asc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/images/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/images/sort_both.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/images/sort_desc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/images/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.jqueryui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.semanticui.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.semanticui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/dataTables.semanticui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/datatables.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/datatables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/datatables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/datatables/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/datatables/js/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="7f5d1584-1b68-4296-a272-35a06243bb1f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/covid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -192,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585415306765</updated>
-      <workItem from="1585415318629" duration="8322000" />
+      <workItem from="1585415318629" duration="8557000" />
     </task>
     <servers />
   </component>
