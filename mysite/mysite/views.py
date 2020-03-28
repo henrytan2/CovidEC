@@ -1,9 +1,7 @@
 from django.http import HttpResponse
-from django.shortcuts import render
 from django.views import generic
 import pandas as pd
 import numpy as np
-import requests
 
 
 class IndexView(generic.TemplateView):
@@ -11,37 +9,33 @@ class IndexView(generic.TemplateView):
 
     def post(self, request):
         if request.method == 'POST':
-            # Get HTML from page and parse it into a pandas DataFrame
+            # get html from google and store in pandas dataframe
             data = pd.read_html("http://google.org/crisisresponse/covid19-map?hl=en-US", match="Location")[0]
 
-            # Replace dashes with numpy.nan
-            data.replace('—', "nan", inplace=True)
+            # below is used to calculate the percentages of recovered and dead
+            recovered_percent = []
+            deaths_percent = []
 
-            # Convert "Cases per 1M people" column to numbers for sorting
-            data["Cases per 1M people"] = pd.to_numeric(data["Cases per 1M people"])
-
-            # Now we calculate the percentage of people recovered or... otherwise
-            recoveredOverConfirmed = []
-            deathsOverConfirmed = []
+            # iterate through the rows to calculate the percentages
             for index, row in data.iterrows():
                 try:
-                    recoveredOverConfirmed.append(
+                    recovered_percent.append(
                         str(int(float(row['Recovered']) / row['Confirmed cases'] * 100)) + "%")
                 except ValueError:
-                    recoveredOverConfirmed.append(np.nan)
+                    recovered_percent.append(np.nan)
                 except ZeroDivisionError:
-                    recoveredOverConfirmed.append(0)
+                    recovered_percent.append(0)
 
                 try:
-                    deathsOverConfirmed.append(str(int(float(row['Deaths']) / row['Confirmed cases'] * 100)) + "%")
+                    deaths_percent.append(str(int(float(row['Deaths']) / row['Confirmed cases'] * 100)) + "%")
                 except ValueError:
-                    deathsOverConfirmed.append(np.nan)
+                    deaths_percent.append(np.nan)
                 except ZeroDivisionError:
-                    deathsOverConfirmed.append(0)
+                    deaths_percent.append(0)
 
             # Now we insert two new columns with the new data
-            data.insert(len(data.columns), "Recovered %", recoveredOverConfirmed, True)
-            data.insert(len(data.columns), "Dead %", deathsOverConfirmed, True)
+            data.insert(len(data.columns), "Recovered %", recovered_percent, True)
+            data.insert(len(data.columns), "Dead %", deaths_percent, True)
 
             data_json = data.to_json()
             return HttpResponse('index', {'covid_data': data_json})
