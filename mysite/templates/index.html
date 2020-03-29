@@ -70,6 +70,7 @@
         $.ajax({
             type: "POST",
             url: "{% url 'covid:index' %}",
+            data: "",
             success: function(response) {
                 data = JSON.parse(response);
                 WireUpDataTable(data);
