@@ -40,4 +40,4 @@ class IndexView(generic.TemplateView):
             data.insert(len(data.columns), "Dead %", deathsOverConfirmed, True)
             data_dict = data.to_dict(orient='records')
             data_json = json.dumps(data_dict)
-            return HttpResponse(data_json, {'covid_data': data_json})
+            return HttpResponse(data_json)
