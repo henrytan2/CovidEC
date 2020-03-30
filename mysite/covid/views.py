@@ -14,7 +14,7 @@ class IndexView(generic.TemplateView):
             data = pd.read_html("http://google.org/crisisresponse/covid19-map?hl=en-US", match="Location")[0]
 
             # Replace dashes with numpy.nan
-            data.replace('—', "nan", inplace=True)
+            data.replace('—', 0, inplace=True)
 
             # Now we calculate the percentage of people recovered or... otherwise
             recoveredOverConfirmed = []
@@ -24,14 +24,14 @@ class IndexView(generic.TemplateView):
                     recoveredOverConfirmed.append(
                         str(int(float(row['Recovered']) / row['Confirmed cases'] * 100)) + "%")
                 except ValueError:
-                    recoveredOverConfirmed.append("nan")
+                    recoveredOverConfirmed.append(0)
                 except ZeroDivisionError:
                     recoveredOverConfirmed.append(0)
 
                 try:
                     deathsOverConfirmed.append(str(int(float(row['Deaths']) / row['Confirmed cases'] * 100)) + "%")
                 except ValueError:
-                    deathsOverConfirmed.append("nan")
+                    deathsOverConfirmed.append(0)
                 except ZeroDivisionError:
                     deathsOverConfirmed.append(0)
 
