@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.views import generic
 import pandas as pd
-import numpy as np
+from selenium import webdriver
 import json
 
 
@@ -10,8 +10,12 @@ class IndexView(generic.TemplateView):
 
     def post(self, request):
         if request.method == 'POST':
+            driver = webdriver.Firefox()
+            driver.get("http://google.org/crisisresponse/covid19-map?hl=en-US")
+
+            html = driver.page_source
             # Get HTML from page and parse it into a pandas DataFrame
-            data = pd.read_html("http://google.org/crisisresponse/covid19-map?hl=en-US", match="Location")[0]
+            data = pd.read_html(html, match="Location")[0]
 
             # Replace dashes with numpy.nan
             data.replace('—', 0, inplace=True)
