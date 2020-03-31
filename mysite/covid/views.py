@@ -22,14 +22,14 @@ class IndexView(generic.TemplateView):
             for index, row in data.iterrows():
                 try:
                     recoveredOverConfirmed.append(
-                        str(int(float(row['Recovered']) / row['Confirmed cases'] * 100)) + "%")
+                        str(int(float(row['Recovered']) / row['Confirmed'] * 100)) + "%")
                 except ValueError:
                     recoveredOverConfirmed.append(0)
                 except ZeroDivisionError:
                     recoveredOverConfirmed.append(0)
 
                 try:
-                    deathsOverConfirmed.append(str(int(float(row['Deaths']) / row['Confirmed cases'] * 100)) + "%")
+                    deathsOverConfirmed.append(str(int(float(row['Deaths']) / row['Confirmed'] * 100)) + "%")
                 except ValueError:
                     deathsOverConfirmed.append(0)
                 except ZeroDivisionError:
